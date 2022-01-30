@@ -11,3 +11,16 @@
 temperature -> RPi -> mqtt -> Project AIR -> Visualization
 
 **Differentiating Features**: The sensors will be attached at an autonomous drone, for water quality monitoring, in multiple fish ponds. The drones assignment & scheduling, will generate the time windows dynamically, according to the battery limitation, flight trajectory, temperature, waypoints order, distance between waypoints, … etc. 
+
+
+
+**Raspberry Pi Zero 2**
+
+![Raspberry Pi & Temperature sensor](https://i.imgur.com/9uMZ8OB.jpeg)
+
+**DS18B20 Temperature Sensor (Waterproof)**
+
+![DS18B20 Temperature Sensor](https://i.imgur.com/9ml8Co1.jpeg)
+![DS18B20 Temperature Sensor](https://i.imgur.com/YAEm3hK.jpeg)
+![DS18B20 Temperature Sensor](https://i.imgur.com/6Gs2Jjw.jpeg)
+
