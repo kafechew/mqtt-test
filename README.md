@@ -13,7 +13,6 @@ temperature -> RPi -> mqtt -> Project AIR -> Visualization
 **Differentiating Features**: The sensors will be attached at an autonomous drone, for water quality monitoring, in multiple fish ponds. The drones assignment & scheduling, will generate the time windows dynamically, according to the battery limitation, flight trajectory, temperature, waypoints order, distance between waypoints, … etc. 
 
 
-
 **Raspberry Pi Zero 2**
 
 ![Raspberry Pi & Temperature sensor](https://i.imgur.com/9uMZ8OB.jpeg)
@@ -23,4 +22,27 @@ temperature -> RPi -> mqtt -> Project AIR -> Visualization
 ![DS18B20 Temperature Sensor](https://i.imgur.com/9ml8Co1.jpeg)
 ![DS18B20 Temperature Sensor](https://i.imgur.com/YAEm3hK.jpeg)
 ![DS18B20 Temperature Sensor](https://i.imgur.com/6Gs2Jjw.jpeg)
+
+
+## Getting started
+
+1. Install docker
+2. get TIBCO LABS Project AIR latest Release https://github.com/TIBCOSoftware/labs-air/releases/latest 
+extract
+3. ./install.sh 
+4. After all the processes are done you see the following 3 docker compose groups in your docker dashboard
+5. Now you can access project air UI by typing localhost:8081 in your browser locally.
+
+## Restart
+
+1. open docker
+2. play airbackend and basicdemo containers
+
+## Reference
+ 
+1. https://tibcosoftware.github.io/labs-air/docs/tutorials/  
+2. https://tibcosoftware.github.io/flogo/labs/raspberry-iot/ 
+3. https://thenewstack.io/tutorial-building-an-iot-app-with-flogo-and-raspberry-pi/
+4. https://github.com/ecarlier-tibco/flogo/tree/master/application/pitemp 
+
 
